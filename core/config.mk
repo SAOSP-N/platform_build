@@ -871,4 +871,7 @@ RSCOMPAT_NO_USAGEIO_API_LEVELS := 8 9 10 11 12 13
 ## last, to avoid accidental resetting by device configs
 $(eval include vendor/simpleaosp/sepolicy/sepolicy.mk)
 
+# Rules for QCOM targets
+include $(BUILD_SYSTEM)/qcom_target.mk
+
 include $(BUILD_SYSTEM)/dumpvar.mk
