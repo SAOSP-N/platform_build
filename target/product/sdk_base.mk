@@ -24,7 +24,6 @@ PRODUCT_PACKAGES := \
 	EmulatorSmokeTests \
 	Fallback \
 	GestureBuilder \
-	Launcher3 \
 	librs_jni \
 	LiveWallpapersPicker \
 	rild \
